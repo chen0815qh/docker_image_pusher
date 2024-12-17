@@ -1,8 +1,8 @@
-mysql:8.0.34
-influxdb:1.8.10
-redis:6.2.16
-nginx:latest
-mcr.microsoft.com/dotnet/sdk:7.0
-mcr.microsoft.com/dotnet/aspnet:7.0
+--platform=linux/amd64 mysql:8.0.34
+--platform=linux/amd64 influxdb:1.8.10
+--platform=linux/amd64 redis:6.2.16
+--platform=linux/amd64 nginx:latest
+--platform=linux/amd64 mcr.microsoft.com/dotnet/sdk:7.0
+--platform=linux/amd64 mcr.microsoft.com/dotnet/aspnet:7.0
 #支持指定架构
---platform=linux/amd64
+
